@@ -1,0 +1,255 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  background-color: #1e1d1c;
+  color: white;
+}
+.middle {
+  background-color: #1e1d1c;
+}
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: auto;
+}
+.logo_img img {
+  width: 20%;
+}
+.nav-items ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-items ul li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 7px;
+  font-size: 20px;
+}
+.nav-items ul li a {
+  color: #d5df49;
+  text-decoration: none;
+}
+.login_btn {
+  padding: 8px 23px;
+  border-radius: 28px;
+  border: none;
+  color: #ff5200;
+  font-weight: bolder;
+  font-size: 16px;
+  background: #d5df49;
+  cursor: pointer;
+}
+.center-text {
+  max-width: 60%;
+  margin: auto;
+  font-size: 24px;
+  font-family: "Gilroy";
+}
+.center-text h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+
+.input-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 6rem;
+}
+.input-text input {
+  border-radius: 20px;
+  color: wheat;
+  font-size: 15px;
+  border: none;
+  padding: 20px;
+}
+#location input {
+  color: wheat;
+  border-radius: 20px;
+  padding: 25px 85px 15px 31px;
+  font-size: 15px;
+}
+.card-main {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  padding: 4rem;
+  background-color: #1e1d1c;
+  padding-bottom: 10rem;
+}
+.card-container-one {
+  background-color: #353333a8;
+  border-radius: 34px;
+  padding: 15px;
+  max-width: 18%;
+  border: 1px solid wheat;
+}
+.card-container-one h1 {
+  color: white;
+}
+.card-container-one h2 {
+  color: gray;
+}
+.card-main button {
+  padding: 8px 23px;
+  border-radius: 28px;
+  border: none;
+  color: red;
+  font-weight: bolder;
+  font-size: 16px;
+  background: linear-gradient(
+    90deg,
+    rgba(237, 143, 36, 0.56) 0%,
+    rgba(242, 241, 233, 1) 92%
+  );
+}
+
+.card-container-one img {
+  width: 50%;
+  border-radius: 3rem;
+  padding: 12px;
+}
+
+.card img {
+  width: 100%;
+  height: 65%;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: -1px -1px 14px 0px #ffd700;
+}
+.card {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  margin: 16px;
+  height: 68%;
+  box-sizing: border-box;
+}
+
+.card h5 {
+  color: #b1d821;
+}
+.card h4 {
+  color: #b1d821;
+}
+.card h3 {
+  font-weight: bolder;
+  color: #b1d821;
+}
+.res-con {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 80%;
+  margin: auto;
+}
+.card:hover {
+  transform: scale(0.96);
+  border-radius: 5px;
+}
+.before_body_line {
+  background: linear-gradient(to right, #0000, #2f2e2ec4 10% 36%, #00000000);
+  height: 3px;
+}
+.Top_rated_btn button {
+  padding: 8px 23px;
+  border-radius: 12px;
+  border: none;
+  color: red;
+  font-weight: bolder;
+  font-size: 16px;
+  background: black;
+  cursor: pointer;
+  text-align: center;
+}
+
+.Shimmer_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Shimmer_card {
+  width: 200px;
+  height: 400px;
+  margin: 20px;
+  background-color: rgba(88, 87, 87, 0.206);
+  opacity: 20px;
+}
+
+.search {
+  text-align: center;
+  margin: 4rem;
+  display: flex;
+  justify-content: center;
+}
+.search input {
+  font-size: 24px;
+}
+
+.search button {
+  padding: 8px 23px;
+  border-radius: 12px;
+  border: none;
+  color: #ff5200;
+  font-weight: bolder;
+  font-size: 16px;
+  background: #d5df49;
+  cursor: pointer;
+}
+.Menu {
+  max-width: 40%;
+  margin: auto;
+}
+.menu_head {
+  margin: 25px;
+}
+.menu_head h1 {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.menu_info {
+  background-color: white;
+  border-radius: 20px;
+  padding: 12px;
+  background-color: white;
+  border: 1px solid #b1b1b1c9;
+}
+.menu_info h1 {
+  font-weight: 400;
+  font-size: 20px;
+  padding: 5px;
+}
+.menu_info a {
+  color: red;
+}
+.menu_shadow {
+  height: 16vh;
+  border-radius: 20px;
+  padding: 15px;
+  background: linear-gradient(
+    rgb(255, 255, 255) -6.71%,
+    rgb(235, 235, 242) 56.19%,
+    rgb(223, 223, 231) 106.56%
+  );
+  height: 100%;
+}
+.menu_main ul li {
+  color: rgb(58, 173, 240);
+  padding: 3px;
+  margin: 15px;
+  font-size: 18px;
+}
+.body {
+  background-color: #1e1d1c;
+}
+.user-info {
+  border: 1px solid black;
+}
